@@ -1,0 +1,15 @@
+<ul class="list-group mt-2">
+    <li class="list-group-item" *ngFor="let item of todoItems">
+        <div class="row">
+            <div class="col-9">{{item}}</div>
+            <div class="col-3 text-right">
+                <button mat-icon-button color="primary" aria-label="Example icon button with a home icon">
+                    <mat-icon aria-hidden="false" class="mIcons" aria-label="Example home icon" fontIcon="edit"></mat-icon>
+                </button>
+                <button mat-icon-button color="primary" aria-label="Example icon button with a home icon">
+                      <mat-icon aria-hidden="false" class="mIcons" aria-label="Example home icon" fontIcon="delete"></mat-icon>
+                  </button>
+            </div>
+        </div>
+    </li>
+</ul>
